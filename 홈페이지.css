@@ -1,0 +1,96 @@
+#hideButton
+ {
+    display: none;
+}
+
+.header-container 
+{
+    position: relative;
+    width: 100%;
+   
+}
+
+.header-container h4 
+{
+    position: absolute;
+    margin: 0; /* 기본 여백 제거 */
+    top: 10%; /* 수직 가운데 정렬 */
+   
+}
+.header-container h5
+{
+    position: absolute;
+    margin: 0; /* 기본 여백 제거 */
+    top: 10%; /* 수직 가운데 정렬 */
+   
+}
+.title 
+{
+    left: 10%;
+}
+
+.Information1 
+{
+    left: 60%
+}
+
+.Information2
+ {
+    left: 68%;
+}
+.Information3
+{
+    left:76%;
+}
+.Information4
+{
+    left:84%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
