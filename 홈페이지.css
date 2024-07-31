@@ -1,14 +1,14 @@
-#hideButton
- {
-    display: none;
-}
 
 .header-container 
 {
    
     margin-top:10px;
 }
-
+.menu
+{
+    color: black;
+    text-decoration: none; /* 밑줄 없애는거 */
+}
 .header-container h4, .header-container h5 
 {
  
@@ -17,13 +17,14 @@
     top: 0; /* 수직 맨 위로 정렬 */
     /* width: 100%; 부모의 가로 크기에 맞춤 */
     
-}.position-left
+}
+.position-left
 {
-    position: absolute;
+    position: absolute;/*absolute는 부모 요소를 기준을 배치*/  /*relative는 자기 자신을 기준으로 배치*/
 }
 .slideshow-container
  {
-    display: flex;
+    display: flex;/*수평으로 배치*/
 }
 #slideshow1
 {
@@ -77,5 +78,19 @@
 #slideshow1 img.active,#slideshow2 img.active,#slideshow3 img.active,#slideshow4 img.active  
 {
     opacity: 1;
+}
+
+.slideshow-text 
+{
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    font-size: 20px; /* 텍스트 크기 설정 */
+    font-weight: bold; /* 텍스트 굵기 설정 */
+    z-index: 10;
+}
+.menu:hover
+{
+color:blue;
 }
 /**/
